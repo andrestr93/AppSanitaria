@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">HEALTH APP</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name"></string>
+
+    <string name="butlista">SHOW LIST</string>
+    <string name="butCITA">CREATE APPOINTMENT</string>
+    <string name="titulo">USER PROFILE</string>
+    <string name="titulofragcita">Selection of appointment</string>
+
+
+    <!--RECURSOS inicio -->
+    <string name="textopres">
+Application to arrange appointments between doctor-patient
+    Developed by andrestr93</string>
+
+
+    <!--RECURSOS COMUNES -->
+    <string name="frag_inicio">Start</string>
+    <string name="viewtitulo_med">Medical Login</string>
+    <string name="viewtitulo_pac">Patient Login</string>
+    <string name="txtlogin_nombre">Name</string>
+    <string name="txtlogin_pass">Password</string>
+    <string name="txtapellidos">Surnames</string>
+    <string name="txtdini">Dni</string>
+    <string name="perfiluser">User profile</string>
+
+    <!--pantalla login medico -->
+    <string name="log_colegiado">Collegiate Login</string>
+    <!--pantalla registro medico -->
+    <string name="txtnumcol_med">Collegiate number</string>
+    <string name="reg_colegiado">Medical record</string>
+    <string name="lista">Physicians List</string>
+
+
+    <!--pantalla login Paciente -->
+    <string name="log_paciente">Patient Login</string>
+    <string name="reg_paciente">Patient Registration</string>
+
+
+    <!--pantalla registro paciente -->
+    <string name="reg_pac_social">
+Social Security Number</string>
+
+
+    <!--Botones -->
+    <string name="butaceptar">TO ACCEPT
+</string>
+    <string name="butcrear">CREATE ACCOUNT
+</string>
+
+
+    <string name="numcolegiado">Collegiate number</string>
+    <string name="nombre">Name</string>
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="titulopcionmed">Select the Doctor</string>
+    <string name="horacita">Appointment time</string>
+    <string name="fechacita">Appointment date</string>
+    <string name="butcita">Dates</string>
+    <string name="infocita">Dates</string>
+    <string name="infonombrecita">Medical Name</string>
+
+
+
+
+</resources>

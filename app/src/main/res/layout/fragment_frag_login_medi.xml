@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragLoginMedi"
+    android:orientation="vertical"
+    android:background="@color/colorblanco">
+
+    <TextView
+        android:id="@+id/viewtitulo_medico"
+        android:textColor="@color/colornegro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/viewtitulo_med"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+ />
+
+    <EditText
+        android:id="@+id/textnombre_medico"
+        android:background="@drawable/bordes_textview"
+        android:layout_width="327dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/txtlogin_nombre"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+ />
+
+
+    <EditText
+        android:id="@+id/textpass_medico"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bordes_textview"
+        android:hint="@string/txtlogin_pass"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+ />
+
+    <Button
+        android:id="@+id/butaceptar_medico"
+        android:layout_marginTop="25dp"
+        android:layout_width="327dp"
+        android:layout_gravity="center"
+        android:text="@string/butaceptar"
+        android:background="@drawable/bordesbotones"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/butregistro_medico"
+        android:layout_marginTop="25dp"
+        android:text="@string/butcrear"
+        android:layout_gravity="center"
+        android:background="@drawable/bordesbotones"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

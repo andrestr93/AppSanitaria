@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorblanco"
+    android:orientation="vertical"
+    tools:context=".Fragments.FragLoginPac">
+
+    <TextView
+        android:id="@+id/viewtitulo_pac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/viewtitulo_pac"
+        android:textAlignment="center"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/colornegro"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textnombre_pac"
+        android:layout_width="327dp"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bordes_textview"
+        android:hint="@string/txtlogin_nombre"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/textpass_pac"
+        android:background="@drawable/bordes_textview"
+        android:layout_width="327dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/txtlogin_pass"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/butaceptar_pac"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bordesbotones"
+        android:text="@string/butaceptar" />
+
+    <Button
+        android:id="@+id/butregistro_pac"
+        android:layout_width="327dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bordesbotones"
+        android:text="@string/butcrear" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

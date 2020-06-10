@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "754929670809",
+    "firebase_url": "https://appsanitaria.firebaseio.com",
+    "project_id": "appsanitaria",
+    "storage_bucket": "appsanitaria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754929670809:android:f321e807aa65b772f97608",
+        "android_client_info": {
+          "package_name": "com.example.appsanitaria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754929670809-fooqcbqc58jbcu38c303iiii0m3ec6hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appsanitaria",
+            "certificate_hash": "65d32da8cb70a963df6de611ef1be27111b7dc27"
+          }
+        },
+        {
+          "client_id": "754929670809-hna1hjrje3uom6u1o7mjnrhsp7rvg5in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcfel-ycOAqaZrdMjzRPNYiV_5uFWFBcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754929670809-hna1hjrje3uom6u1o7mjnrhsp7rvg5in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

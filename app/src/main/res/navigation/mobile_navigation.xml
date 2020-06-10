@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragmentinicio">
+
+
+    <fragment
+        android:id="@+id/fragmentinicio"
+        android:name="com.example.appsanitaria.Fragments.FragmentInicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/fragRegistroPac"
+        android:name="com.example.appsanitaria.Fragments.FragLoginPac"
+        tools:layout="@layout/fragment_frag_login_pac" />
+    <fragment
+        android:id="@+id/fragRegistroMedi"
+        android:name="com.example.appsanitaria.Fragments.FragLoginMedi"
+        tools:layout="@layout/fragment_frag_login_medi" />
+
+</navigation>

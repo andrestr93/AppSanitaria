@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorblanco"
+    tools:context=".Actividades.ActividadMenuPac">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/colornegro"
+        android:textStyle="bold"
+        android:id="@+id/viewtitulo"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/colornegro"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:id="@+id/nombre_pacperfil"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colornegro"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:id="@+id/apellidos_pacperfil"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colornegro"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:id="@+id/dni_pacperfil"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="19dp"
+
+        android:textColor="@color/colornegro"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold"
+        android:id="@+id/numseg_pacperfil"
+        android:layout_marginTop="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+            android:id="@+id/butcita"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:background="@color/colorblanco"
+            android:onClick="Onclick"
+            android:text="@string/butCITA"
+
+            />
+
+        <Button
+            android:id="@+id/butlista"
+            android:layout_width="159dp"
+            android:textStyle="bold"
+            android:background="@color/colorblanco"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:onClick="Onclick"
+            android:text="@string/butlista"
+            />
+
+        <Button
+            android:id="@+id/butinfocita"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@color/colorblanco"
+            android:onClick="Onclick"
+            android:text="@string/infocita"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedorfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>
